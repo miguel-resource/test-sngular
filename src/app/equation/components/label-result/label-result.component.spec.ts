@@ -18,6 +18,7 @@ describe('LabelResultComponent', () => {
   });
 
   it('should create', () => {
+    component.resultado = 2
     expect(component).toBeTruthy();
   });
 });

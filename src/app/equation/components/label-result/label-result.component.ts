@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-label-result',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./label-result.component.scss']
 })
 export class LabelResultComponent implements OnInit {
+
+  @Input() resultado!: any;
 
   constructor() { }
 
